@@ -17,6 +17,11 @@ export default class SignUpDoctor extends Component {
                 </div>
 
                 <div className="form-group">
+                    <label>Username</label>
+                    <input type="email" className="form-control" placeholder="Username" />
+                </div>
+
+                <div className="form-group">
                     <label>CPF</label>
                     <input type="text" className="form-control" placeholder="CPF" />
                 </div>
