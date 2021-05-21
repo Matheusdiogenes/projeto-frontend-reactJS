@@ -1,7 +1,7 @@
 import React, { Component } from "react";
+import navbarUser from "./navbarUser"
 
-
-class Exercise extends Component {
+class Contador extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -42,6 +42,7 @@ class Exercise extends Component {
   render() {
     return (
       <div>
+        {navbarUser}
         <div>          
           <h2>{this.state.actualTime.toFixed(2)}</h2>
         </div>
@@ -58,4 +59,4 @@ class Exercise extends Component {
   }
 }
 
-export default Exercise;
+export default Contador;
