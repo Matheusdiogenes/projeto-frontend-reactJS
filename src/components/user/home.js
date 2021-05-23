@@ -8,7 +8,7 @@ export default function HomeUser() {
         return (
             <div>                   
                 {navbarUser}
-                <h1>Tela do usuario</h1>                
+                <h1>Link que leva o usuario a URL /practice</h1>                
                 
             </div>
         );
