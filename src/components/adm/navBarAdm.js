@@ -13,6 +13,15 @@ const navbarAdm =
           <li className="nav-item">
             <Link className="nav-link" to={"/register-patient"}>Register Patient</Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link" to={"/adm/insert"}>Insert Exercise</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to={"/adm/delete"}>Delete Exercise</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to={"/adm/deleteUser"}>Deletar Usuário</Link>
+          </li>
         </ul>
       </div>
     </div>

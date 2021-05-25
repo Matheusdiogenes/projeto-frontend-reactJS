@@ -15,13 +15,54 @@ const api = {
     }
   },
 
-  showExercise: async (username) => {
+  showPatient: async () => {
     try {
-      await axios.get(`http://localhost:3000/patient/show/exercise/${username}`)
+      const patient = await axios.get(`http://localhost:3000/patient/show`)
+      return patient.data
     } catch (error) {
       console.log(error);
     }
   },
+
+
+  showExercise: async (username) => {
+    try {
+      const exercise = await axios.get(`http://localhost:3000/patient/show/exercise/${username}`)
+      return exercise.data
+
+    } catch (error) {
+      console.log(error);
+    }
+  },
+
+  insertExercise: async (username, arrExercise) => {
+    try {
+      await axios.put(`http://localhost:3000/patient/insert/exercise/${username}`, {
+        exercise: arrExercise
+      })
+    } catch (error) {
+      console.log(error);
+    }
+  },
+
+  deleteExercise: async (username, arrExercise) => {
+    try {
+      await axios.put(`http://localhost:3000/patient/update/exercise/${username}`, {
+        exercise: arrExercise
+      })
+    } catch (error) {
+      console.log(error);
+    }
+  },
+
+  deleteUser: async (username) => {
+    try {
+      await axios.delete(`http://localhost:3000/patient/delete/${username}`)
+    } catch (error) {
+      console.log(error);
+    }
+  },
+
 
   registerDoctor: async (name_d, email, username, cpf, specialty, password) => {
     try {

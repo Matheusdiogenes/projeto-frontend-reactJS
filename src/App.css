@@ -6,7 +6,34 @@
   height: 40vmin;
   pointer-events: none;
 }
+.user-input {
+  display: flex;
+  /* background-color: black; */
+  align-items: flex-start;
+  justify-items: center;
+  height: max-content;
+}
 
+.contador{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: larger;  
+}
+.exercises{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.panel{
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column-reverse; */
+  align-content: space-around;
+  
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

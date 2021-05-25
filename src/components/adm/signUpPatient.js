@@ -12,7 +12,7 @@ export default function SignUpPatient() {
         const cpf = getValues('cpf')
         const password = getValues('password')
         api.registerPatient(name_p, username, email, cpf, password)
-        
+        window.location.reload();        
     }
 
     return (
@@ -24,7 +24,7 @@ export default function SignUpPatient() {
             <div className="form-group">
                 <label>Name</label>
                 <input {...register('name_p')} type="text" className="form-control" placeholder="Name" />
-            </div>                               
+            </div>                       
 
             <div className="form-group">
                 <label>Username</label>
