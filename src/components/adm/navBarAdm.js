@@ -11,16 +11,16 @@ const navbarAdm =
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul className="navbar-nav ml-auto">          
           <li className="nav-item">
-            <Link className="nav-link" to={"/register-patient"}>Register Patient</Link>
+            <Link className="nav-link" to={"/register-patient"}>Registrar Paciente</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to={"/adm/insert"}>Insert Exercise</Link>
+            <Link className="nav-link" to={"/adm/insert"}>Inserir Exercicios</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to={"/adm/delete"}>Delete Exercise</Link>
+            <Link className="nav-link" to={"/adm/delete"}>Deletar Exercicios</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to={"/adm/deleteUser"}>Deletar Usuário</Link>
+            <Link className="nav-link" to={"/adm/deleteUser"}>Gerenciar</Link>
           </li>
         </ul>
       </div>

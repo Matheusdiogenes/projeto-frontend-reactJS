@@ -56,7 +56,7 @@ class DeleteUser extends Component{
         <form>
           <div className="form-group">
               <label>Selecione o Paciente: </label>
-              { user.length > 0? user : <p>Não há Pacientes Registrados</p> }                  
+              { user.length > 0? user : <p>Não há pacientes registrados</p> }                  
           </div>                                                        
           
           {/* <button type="button" onClick={this.mostrarExercicio} className="btn btn-primary btn-block">Atualizar Exercicios</button>                        */}

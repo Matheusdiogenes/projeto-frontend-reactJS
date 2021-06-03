@@ -63,11 +63,11 @@ class DeleteExercise extends Component{
         <form>
           <div className="form-group">
               <label>Selecione o Paciente: </label>
-              { user.length > 0? user : <p>Não há Pacientes Registrados</p> }                  
+              { user.length > 0? user : <p>Não há pacientes registrados</p> }                  
           </div>                       
           <div className="form-group">
-              <label>Marque os Exercicios a ser deletados : </label>
-              {exercises.length > 0 ? exercises : <p>Não há Exercicios</p>}
+              <label>Marque os exercicios a ser deletados : </label>
+              {exercises.length > 0 ? exercises : <p>Não há exercicios</p>}
               
           </div>                                 
           

@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 const navbarAdm = 
   <nav className="navbar navbar-expand-lg navbar-light fixed-top">
     <div className="container">          
-      <Link className="navbar-brand" to={"/"}>Home</Link>
+      <Link className="navbar-brand" to={"/"}>Portal do Paciente</Link>
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul className="navbar-nav ml-auto">          
           <li className="nav-item">

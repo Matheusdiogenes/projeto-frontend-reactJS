@@ -45,13 +45,13 @@ class Insert extends Component{
         
         <form>
           <div className="form-group">
-              <label>Selecione o Paciente: </label>
-              { user.length > 0? user : <p>Não há Pacientes Registrados</p> }                  
+              <label>Selecione o paciente: </label>
+              { user.length > 0? user : <p>Não há pacientes registrados</p> }                  
           </div>                       
           
 
           {
-            user.length > 0? inserir : <p>É preciso Pacientes Registrados para inserir Exercicios</p>                   
+            user.length > 0? inserir : <p>É preciso pacientes registrados para inserir exercicios</p>                   
           }
           {/* <button type="button" onClick={this.insert} className="btn btn-primary btn-block">Inserir Exercicios</button> */}
           
